@@ -1,2 +1,2 @@
 # rest
-service page
+another page
