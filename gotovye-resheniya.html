@@ -1,0 +1,1187 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!-- CSS only -->
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.15.4/css/all.css" integrity="sha384-DyZ88mC6Up2uqS4h/KRgHuoeGwBcD4Ng9SiP4dIRy0EXTlnuz47vAwmeGwVChigm" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://unpkg.com/swiper@7/swiper-bundle.min.css"/>
+    <link rel="stylesheet" type="text/css" href="css/bootstrap.css">
+    <link rel="stylesheet" type="text/css" href="css/style.css">  
+    <title>Restaurateur</title>
+</head>
+<body>
+<div class="header">
+  <nav class="navbar navbar-expand-lg navbar-light bg-light first">
+    <div class="container">
+      <ul class="navbar-nav city-choose">
+        <li class="nav-item dropdown">
+          <a class="nav-item nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+          <img src="img/pin.png"> Уфа
+          </a>
+          <ul class="dropdown-menu" aria-labelledby="navbarDropdownMenuLink">
+            <li><a class="dropdown-item" href="#">Город</a></li>
+            <li><a class="dropdown-item" href="#">Город</a></li>
+            <li><a class="dropdown-item" href="#">Город</a></li>
+          </ul>
+        </li>
+      </ul>
+      <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavDropdown" aria-controls="navbarNavDropdown" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+      <div class="collapse navbar-collapse" id="navbarNavDropdown">
+        <ul class="navbar-nav">
+          <li class="nav-item">
+            <a class="nav-link" href="#">О компании</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#">Доставка и оплата</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#">Гарантия</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#">Политика возврата</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#">Помощь</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#">Контакты</a>
+          </li>
+          <li class="nav-item dropdown hidden">
+            <a class="nav-link dropdown-toggle" href="#" id="navbarDropdownMenuLink" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+              Оборудование
+            </a>
+            <ul class="dropdown-menu" aria-labelledby="navbarDropdownMenuLink">
+              <li><a class="dropdown-item" href="#">Оборудование</a></li>
+              <li><a class="dropdown-item" href="#">Оборудование</a></li>
+              <li><a class="dropdown-item" href="#">Оборудование</a></li>
+            </ul>
+          </li>
+          <li class="nav-item dropdown hidden">
+            <a class="nav-link dropdown-toggle" href="#" id="navbarDropdownMenuLink" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+              Инвентарь
+            </a>
+            <ul class="dropdown-menu" aria-labelledby="navbarDropdownMenuLink">
+              <li><a class="dropdown-item" href="#">Инвентарь</a></li>
+              <li><a class="dropdown-item" href="#">Инвентарь</a></li>
+              <li><a class="dropdown-item" href="#">Инвентарь</a></li>
+            </ul>
+          </li>
+          <li class="nav-item dropdown hidden">
+            <a class="nav-link dropdown-toggle" href="#" id="navbarDropdownMenuLink" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+              Посуда
+            </a>
+            <ul class="dropdown-menu" aria-labelledby="navbarDropdownMenuLink">
+              <li><a class="dropdown-item" href="#">Посуда</a></li>
+              <li><a class="dropdown-item" href="#">Посуда</a></li>
+              <li><a class="dropdown-item" href="#">Посуда</a></li>
+            </ul>
+          </li>
+          <li class="nav-item dropdown hidden">
+            <a class="nav-link dropdown-toggle" href="#" id="navbarDropdownMenuLink" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+              Мебель
+            </a>
+            <ul class="dropdown-menu" aria-labelledby="navbarDropdownMenuLink">
+              <li><a class="dropdown-item" href="#">Мебель</a></li>
+              <li><a class="dropdown-item" href="#">Мебель</a></li>
+              <li><a class="dropdown-item" href="#">Мебель</a></li>
+            </ul>
+          </li>
+          <li class="nav-item hidden">
+            <a class="nav-link" href="#">Услуги</a>
+          </li>
+          <li class="nav-item hidden">
+            <a class="nav-link" href="#">Сервисный центр</a>
+          </li>
+          <li class="nav-item hidden">
+            <a class="nav-link akcii" href="#">Акции</a>
+          </li>
+          <li class="nav-item hidden login-mob-area">
+            <a class="nav-link akcii" href="#">Войти</a>
+          </li>
+        </ul>
+        <div class="login-area mob-hidden">
+          <a href="#"><img src="img/user.png" alt=""></a>
+        </div>
+      </div>
+
+    </div>
+  </nav>
+  <div class="second">
+    <div class="container">
+      <div class="d-flex hdr-logo">
+        <div class="header-logo">
+          <img src="img/hdr-menu.png">
+        </div>
+        <div>
+          <p class="header-title">RESTAURATEUR</p>
+          <p class="header-subtitle">Professional kitchen equipment</p>
+        </div>
+      </div>
+      <div class="adr-number-area">
+        <div class="header-address">
+          <p><span class="adr-icon"></span> Уфа, ул. Трамвайная 2/3, ТЦ “Парус”, 3 этаж</p>
+        </div>
+        <div class="number-area">
+          <p><a class="number" href="#">+7 (347) 123-45-67</a></p>
+          <a class="number-sub" href="#">Заказать звонок</a>
+        </div>
+    </div>
+    </div>
+  </div>
+  <nav class="navbar navbar-expand-lg navbar-light bg-light third">
+    <div class="container">
+      <div class="third-logo">
+        <img src="img/logo-pzl.png" alt="">
+        <p>Готовые комплексные решения</p>
+      </div>
+      <div class="collapse navbar-collapse" id="navbarNavDropdown">
+        <ul class="navbar-nav">
+          <li class="nav-item">
+            <a class="nav-link" href="#">Выкуп оборудования</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#">Tradein</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#">Лизинг</a>
+          </li>
+          <li class="nav-item credit">
+            <a class="nav-link" href="#">Кредит</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#">Уценка</a>
+          </li>
+        </ul>
+      </div>
+      <div class="product-area">
+        <div class="exchange">
+          <p><a href="#"><img src="img/exchange.png" alt=""></a><a class="ex-number" href="#"><span>99</span></a> <a class="ex-compare" href="#">Сравнить</a></p>
+        </div>
+        <div class="shopping">
+          <p><a href="#"><img src="img/shopping-cart.png" alt=""></a><a class="shop-number" href="#"><span>99</span></a> <a class="shop-compare" href="#">2 750 500 ₽</a></p>
+        </div>
+      </div>
+    </div>
+  </nav>
+  <nav class="navbar navbar-expand-lg navbar-light bg-light forth" id="navbar_top">
+    <div class="container">
+      <div class="collapse navbar-collapse" id="navbarNavDropdown">
+        <ul class="navbar-nav">
+          <li class="nav-item dropdown">
+            <a class="nav-link dropdown-toggle" href="#" id="navbarDropdownMenuLink" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+              Оборудование
+            </a>
+            <ul class="dropdown-menu" aria-labelledby="navbarDropdownMenuLink">
+              <li><a class="dropdown-item" href="#">Оборудование</a></li>
+              <li><a class="dropdown-item" href="#">Оборудование</a></li>
+              <li><a class="dropdown-item" href="#">Оборудование</a></li>
+            </ul>
+          </li>
+          <li class="nav-item dropdown">
+            <a class="nav-link dropdown-toggle" href="#" id="navbarDropdownMenuLink" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+              Инвентарь
+            </a>
+            <ul class="dropdown-menu" aria-labelledby="navbarDropdownMenuLink">
+              <li><a class="dropdown-item" href="#">Инвентарь</a></li>
+              <li><a class="dropdown-item" href="#">Инвентарь</a></li>
+              <li><a class="dropdown-item" href="#">Инвентарь</a></li>
+            </ul>
+          </li>
+          <li class="nav-item dropdown">
+            <a class="nav-link dropdown-toggle" href="#" id="navbarDropdownMenuLink" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+              Посуда
+            </a>
+            <ul class="dropdown-menu" aria-labelledby="navbarDropdownMenuLink">
+              <li><a class="dropdown-item" href="#">Посуда</a></li>
+              <li><a class="dropdown-item" href="#">Посуда</a></li>
+              <li><a class="dropdown-item" href="#">Посуда</a></li>
+            </ul>
+          </li>
+          <li class="nav-item dropdown">
+            <a class="nav-link dropdown-toggle" href="#" id="navbarDropdownMenuLink" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+              Мебель
+            </a>
+            <ul class="dropdown-menu" aria-labelledby="navbarDropdownMenuLink">
+              <li><a class="dropdown-item" href="#">Мебель</a></li>
+              <li><a class="dropdown-item" href="#">Мебель</a></li>
+              <li><a class="dropdown-item" href="#">Мебель</a></li>
+            </ul>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#">Услуги</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#">Сервисный центр</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link akcii" href="#">Акции</a>
+          </li>
+        </ul>
+      </div>
+      <div class="input-group gy-sm-3 gy-md-0">
+        <input type="text" class="form-control" placeholder="Поиск...">
+        <button class="" type="button">
+          <span class="loupe-icon"></span>
+        </button>
+      </div>
+    </div>
+  </nav>
+</div>
+
+<main>
+  <div class="breadcrumb-col">
+    <div class="container">
+      <nav aria-label="breadcrumb">
+        <ol class="breadcrumb">
+          <li class="breadcrumb-item"><a href="#">Услуги</a></li>
+          <li class="breadcrumb-item active" aria-current="page">Готовые решения</li>
+        </ol>
+      </nav>
+      <ul class="navbar-nav breadcrumb-button">
+        <li class="nav-item dropdown">
+          <a class="nav-link dropdown-toggle gy-sm-3 gy-md-0" id="navbarDropdownMenuLink" href="#" data-toggle="dropdown" aria-expanded="false">
+          Остальные готовые решения
+          </a>
+          <ul class="dropdown-menu" aria-labelledby="navbarDropdownMenuLink">
+            <li><a class="dropdown-item" href="#">Решение</a></li>
+            <li><a class="dropdown-item" href="#">Решение</a></li>
+            <li><a class="dropdown-item" href="#">Решение</a></li>
+          </ul>
+        </li>
+      </ul>
+    </div>
+  </div>
+  <div class="ready-made-list">
+    <div class="container rel ">
+    
+    <!-- Slider Buttons -->
+    <div class="main-slider-buttons">
+      <div class="swiper-button-prev-main"></div>
+      <div class="main-slider-link">
+        <a href="#">Назад к списку</a>
+      </div>
+      <div class="swiper-button-next-main"></div>
+    </div>
+    <!-- Light Slider -->
+      <div class="swiper">
+        <div class="swiper-wrapper">
+          <div class="swiper-slide">
+            <div class="container">
+            <h2>Готовое решение: <span>Небольшая пиццерия</span></h2>  
+              <div class="row">
+                  <div class="col-md-12 col-lg-9">
+                    
+                    <div class="swiper-controller">
+                      <!-- Carousel buttons -->
+                      <div class="swiper-button-prev"></div>
+                      <div class="swiper-button-next"></div>
+                      <!-- Inner Images Carousel -->
+                      <div class="swiper-gallery">
+                        <div class="swiper-wrapper">
+                          <div class="swiper-slide">
+                            <img src="img/list-img.png" class="d-block w-100">
+                          </div>
+                          <div class="swiper-slide">
+                            <img src="img/list-img.png" class="d-block w-100">
+                          </div>
+                          <div class="swiper-slide">
+                            <img src="img/list-img.png" class="d-block w-100">
+                          </div>
+                        </div>
+                      </div>
+                    </div>
+                      <h3>В стоимость входит:</h3>
+
+                      <!-- Product Table -->
+                      <div class="table-gray-heading">
+                        <p class="table-title">Оборудование</p>
+                        <p class="price-total"><span>189 693</span> руб</p>
+                      </div>
+                      <div class="table" id="results">
+                        <div class='theader'>
+                          
+                          <div class='table_header col-12 col-md-2  first'>Фото</div>
+                          <div class='table_header col-12 col-md-4 second'>Наименование</div>
+                          <div class='table_header col-12 col-md-2 text-center third'>Цена, руб</div>
+                          <div class='table_header col-12 col-md-2 text-center fourth'>Кол-во</div>
+                          <div class='table_header col-12 col-md-2 text-center fifth'>Стоимость, руб</div>
+                        
+                      </div>
+                        <div class='table_row'>
+                          <div class='table_small col-12 col-md-2 first'>
+                            <div class='table_cell'>Фото</div>
+                            <div class='table_cell'><img src="img/techniq.png" alt=""></div>
+                          </div>
+                          <div class='table_small col-12 col-md-4 second'>
+                            <div class='table_cell'>Наименование</div>
+                            <div class='table_cell'><p class="table-prod-link"><a href="#">Ящик для овощей и фруктов 600x
+                              400x200 мм с отверстиями...</a></p></div>
+                          </div>
+                          <div class='table_small col-12 col-md-2 third'>
+                            <div class='table_cell'>Цена, руб</div>
+                            <div class='table_cell table-item-price'>1 234,00</div>
+                          </div>
+                          <div class='table_small col-12 col-md-2 fourth'>
+                            <div class='table_cell'>Кол-во</div>
+                            <div class='table_cell'>
+                              <div class="number">
+                              <div class="plus"><span>+</span></div>
+                              <input type="text" value="1"/>
+                              <div class="minus"><span>-</span></div>
+                            </div>
+                          </div>
+                          </div>
+                          <div class='table_small col-12 col-md-2 fifth'>
+                            <div class='table_cell'>Стоимость, руб</div>
+                            <div class='table_cell table-price'>100 000,00  <a href="#"></a></div>
+                          </div>
+                        </div>
+                      
+                        <div class='table_row'>
+                          <div class='table_small col-12 col-md-2 first'>
+                            <div class='table_cell'>Фото</div>
+                            <div class='table_cell'><img src="img/techniq.png" alt=""></div>
+                          </div>
+                          <div class='table_small col-12 col-md-4 second'>
+                            <div class='table_cell'>Наименование</div>
+                            <div class='table_cell'><a href="#">Ящик для овощей и фруктов 600x
+                              400x200 мм с отверстиями...</a></div>
+                          </div>
+                          <div class='table_small col-12 col-md-2 third'>
+                            <div class='table_cell'>Цена, руб</div>
+                            <div class='table_cell table-item-price'>1 234,00</div>
+                          </div>
+                          <div class='table_small col-12 col-md-2 fourth'>
+                            <div class='table_cell'>Кол-во</div>
+                            <div class='table_cell'>
+                              <div class="number">
+                                <div class="plus"><span>+</span></div>
+                                <input type="text" value="1"/>
+                                <div class="minus"><span>-</span></div>
+                            </div>
+                          </div>
+                          </div>
+                          <div class='table_small col-12 col-md-2 fifth'>
+                            <div class='table_cell'>Стоимость, руб</div>
+                            <div class='table_cell table-price'>100 000,00 <a href="#"></a></div>
+                          </div>
+                        </div>
+                      
+                        <div class='table_row'>
+                          <div class='table_small col-12 col-md-2 first'>
+                            <div class='table_cell'>Фото</div>
+                            <div class='table_cell'><img src="img/techniq.png" alt=""></div>
+                          </div>
+                          <div class='table_small col-12 col-md-4 second'>
+                            <div class='table_cell'>Наименование</div>
+                            <div class='table_cell'><a href="#">Ящик для овощей и фруктов 600x
+                              400x200 мм с отверстиями...</a></div>
+                          </div>
+                          <div class='table_small col-12 col-md-2 third'>
+                            <div class='table_cell'>Цена, руб</div>
+                            <div class='table_cell table-item-price'>1 234,00</div>
+                          </div>
+                          <div class='table_small col-12 col-md-2 fourth'>
+                            <div class='table_cell'>Кол-во</div>
+                            <div class='table_cell'>
+                              <div class="number">
+                                <div class="plus"><span>+</span></div>
+                                <input type="text" value="1"/>
+                                <div class="minus"><span>-</span></div>
+                            </div>
+                          </div>
+                          </div>
+                          <div class='table_small col-12 col-md-2 fifth'>
+                            <div class='table_cell'>Стоимость, руб</div>
+                            <div class='table_cell table-price'>100 000,00 <a href="#"></a></div>
+                          </div>
+                        </div>
+                      </div>
+                      <div class="table-gray-heading">
+                        <p class="table-title">Оборудование</p>
+                        <p class="price-total"><span>189 693</span> руб</p>
+                      </div>
+                      <div class="table" id="results_1">
+                        <div class='theader'>
+                          
+                          <div class='table_header col-12 col-md-2  first'>Фото</div>
+                          <div class='table_header col-12 col-md-4 second'>Наименование</div>
+                          <div class='table_header col-12 col-md-2 text-center third'>Цена, руб</div>
+                          <div class='table_header col-12 col-md-2 text-center fourth'>Кол-во</div>
+                          <div class='table_header col-12 col-md-2 text-center fifth'>Стоимость, руб</div>
+                        
+                      </div>
+                      <div class='table_row'>
+                        <div class='table_small col-12 col-md-2 first'>
+                          <div class='table_cell'>Фото</div>
+                          <div class='table_cell'><img src="img/techniq.png" alt=""></div>
+                        </div>
+                        <div class='table_small col-12 col-md-4 second'>
+                          <div class='table_cell'>Наименование</div>
+                          <div class='table_cell'><a href="#">Ящик для овощей и фруктов 600x
+                            400x200 мм с отверстиями...</a></div>
+                        </div>
+                        <div class='table_small col-12 col-md-2 third'>
+                          <div class='table_cell'>Цена, руб</div>
+                          <div class='table_cell table-item-price'>1 234,00</div>
+                        </div>
+                        <div class='table_small col-12 col-md-2 fourth'>
+                          <div class='table_cell'>Кол-во</div>
+                          <div class='table_cell'>
+                            <div class="number">
+                              <div class="plus"><span>+</span></div>
+                              <input type="text" value="1"/>
+                              <div class="minus"><span>-</span></div>
+                          </div>
+                        </div>
+                        </div>
+                        <div class='table_small col-12 col-md-2 fifth'>
+                          <div class='table_cell'>Стоимость, руб</div>
+                          <div class='table_cell table-price'>100 000,00 <a href="#"></a></div>
+                        </div>
+                      </div>
+                      
+                      <div class='table_row'>
+                        <div class='table_small col-12 col-md-2 first'>
+                          <div class='table_cell'>Фото</div>
+                          <div class='table_cell'><img src="img/techniq.png" alt=""></div>
+                        </div>
+                        <div class='table_small col-12 col-md-4 second'>
+                          <div class='table_cell'>Наименование</div>
+                          <div class='table_cell'><a href="#">Ящик для овощей и фруктов 600x
+                            400x200 мм с отверстиями...</a></div>
+                        </div>
+                        <div class='table_small col-12 col-md-2 third'>
+                          <div class='table_cell'>Цена, руб</div>
+                          <div class='table_cell table-item-price'>1 234,00</div>
+                        </div>
+                        <div class='table_small col-12 col-md-2 fourth'>
+                          <div class='table_cell'>Кол-во</div>
+                          <div class='table_cell'>
+                            <div class="number">
+                              <div class="plus"><span>+</span></div>
+                              <input type="text" value="1"/>
+                              <div class="minus"><span>-</span></div>
+                          </div>
+                        </div>
+                        </div>
+                        <div class='table_small col-12 col-md-2 fifth'>
+                          <div class='table_cell'>Стоимость, руб</div>
+                          <div class='table_cell table-price'>100 000,00 <a href="#"></a></div>
+                        </div>
+                      </div>
+                      
+                      <div class='table_row'>
+                        <div class='table_small col-12 col-md-2 first'>
+                          <div class='table_cell'>Фото</div>
+                          <div class='table_cell'><img src="img/techniq.png" alt=""></div>
+                        </div>
+                        <div class='table_small col-12 col-md-4 second'>
+                          <div class='table_cell'>Наименование</div>
+                          <div class='table_cell'><a href="#">Ящик для овощей и фруктов 600x
+                            400x200 мм с отверстиями...</a></div>
+                        </div>
+                        <div class='table_small col-12 col-md-2 third'>
+                          <div class='table_cell'>Цена, руб</div>
+                          <div class='table_cell table-item-price'>1 234,00</div>
+                        </div>
+                        <div class='table_small col-12 col-md-2 fourth'>
+                          <div class='table_cell'>Кол-во</div>
+                          <div class='table_cell'>
+                            <div class="number">
+                              <div class="plus"><span>+</span></div>
+                              <input type="text" value="1"/>
+                              <div class="minus"><span>-</span></div>
+                          </div>
+                        </div>
+                        </div>
+                        <div class='table_small col-12 col-md-2 fifth'>
+                          <div class='table_cell'>Стоимость, руб</div>
+                          <div class='table_cell table-price'>100 000,00 <a href="#"></a></div>
+                        </div>
+                      </div>
+                      </div>
+                      <div class="table-gray-heading">
+                        <p class="table-title">Оборудование</p>
+                        <p class="price-total"><span>189 693</span> руб</p>
+                      </div>
+                      <div class="table" id="results_2">
+                        <div class='theader'>
+                          
+                          <div class='table_header col-12 col-md-2  first'>Фото</div>
+                          <div class='table_header col-12 col-md-4 second'>Наименование</div>
+                          <div class='table_header col-12 col-md-2 text-center third'>Цена, руб</div>
+                          <div class='table_header col-12 col-md-2 text-center fourth'>Кол-во</div>
+                          <div class='table_header col-12 col-md-2 text-center fifth'>Стоимость, руб</div>
+                        
+                      </div>
+                      <div class='table_row'>
+                        <div class='table_small col-12 col-md-2 first'>
+                          <div class='table_cell'>Фото</div>
+                          <div class='table_cell'><img src="img/techniq.png" alt=""></div>
+                        </div>
+                        <div class='table_small col-12 col-md-4 second'>
+                          <div class='table_cell'>Наименование</div>
+                          <div class='table_cell'><a href="#">Ящик для овощей и фруктов 600x
+                            400x200 мм с отверстиями...</a></div>
+                        </div>
+                        <div class='table_small col-12 col-md-2 third'>
+                          <div class='table_cell'>Цена, руб</div>
+                          <div class='table_cell table-item-price'>1 234,00</div>
+                        </div>
+                        <div class='table_small col-12 col-md-2 fourth'>
+                          <div class='table_cell'>Кол-во</div>
+                          <div class='table_cell'>
+                            <div class="number">
+                              <div class="plus"><span>+</span></div>
+                              <input type="text" value="1"/>
+                              <div class="minus"><span>-</span></div>
+                          </div>
+                        </div>
+                        </div>
+                        <div class='table_small col-12 col-md-2 fifth'>
+                          <div class='table_cell'>Стоимость, руб</div>
+                          <div class='table_cell table-price'>100 000,00 <a href="#"></a></div>
+                        </div>
+                      </div>
+                      
+                      <div class='table_row'>
+                        <div class='table_small col-12 col-md-2 first'>
+                          <div class='table_cell'>Фото</div>
+                          <div class='table_cell'><img src="img/techniq.png" alt=""></div>
+                        </div>
+                        <div class='table_small col-12 col-md-4 second'>
+                          <div class='table_cell'>Наименование</div>
+                          <div class='table_cell'><a href="#">Ящик для овощей и фруктов 600x
+                            400x200 мм с отверстиями...</a></div>
+                        </div>
+                        <div class='table_small col-12 col-md-2 third'>
+                          <div class='table_cell'>Цена, руб</div>
+                          <div class='table_cell table-item-price'>1 234,00</div>
+                        </div>
+                        <div class='table_small col-12 col-md-2 fourth'>
+                          <div class='table_cell'>Кол-во</div>
+                          <div class='table_cell'>
+                            <div class="number">
+                              <div class="plus"><span>+</span></div>
+                              <input type="text" value="1"/>
+                              <div class="minus"><span>-</span></div>
+                          </div>
+                        </div>
+                        </div>
+                        <div class='table_small col-12 col-md-2 fifth'>
+                          <div class='table_cell'>Стоимость, руб</div>
+                          <div class='table_cell table-price'>100 000,00 <a href="#"></a></div>
+                        </div>
+                      </div>
+                      
+                      <div class='table_row'>
+                        <div class='table_small col-12 col-md-2 first'>
+                          <div class='table_cell'>Фото</div>
+                          <div class='table_cell'><img src="img/techniq.png" alt=""></div>
+                        </div>
+                        <div class='table_small col-12 col-md-4 second'>
+                          <div class='table_cell'>Наименование</div>
+                          <div class='table_cell'><a href="#">Ящик для овощей и фруктов 600x
+                            400x200 мм с отверстиями...</a></div>
+                        </div>
+                        <div class='table_small col-12 col-md-2 third'>
+                          <div class='table_cell'>Цена, руб</div>
+                          <div class='table_cell table-item-price'>1 234,00</div>
+                        </div>
+                        <div class='table_small col-12 col-md-2 fourth'>
+                          <div class='table_cell'>Кол-во</div>
+                          <div class='table_cell'>
+                            <div class="number">
+                              <div class="plus"><span>+</span></div>
+                              <input type="text" value="1"/>
+                              <div class="minus"><span>-</span></div>
+                          </div>
+                        </div>
+                        </div>
+                        <div class='table_small col-12 col-md-2 fifth'>
+                          <div class='table_cell'>Стоимость, руб</div>
+                          <div class='table_cell table-price'>100 000,00 <a href="#"></a></div>
+                        </div>
+                      </div>
+                      </div>
+                  </div>
+                  <div class="col-md-12 col-lg-3">
+                    <div class="list-info">
+                      <p class="list-square">Площадь: 120 м<sup>2</sup></p>
+                      <div class="list-price">
+                        <p class="first">Закажите готовое решение для Вашего бизнеса за:</p>
+                        <p class="second"><span>25 468,00</span> руб</p>
+                      </div>
+                      <div class="list-order">
+                        <a href="#">Как приобрести решение в лизинг и кредит</a>
+                        <button class="btn btn-danger">Оформить заказ</button>
+                      </div>
+                      <div class="list-download">
+                        <img src="img/pdf.png" alt=""> <a href="#">Скачать файл заказа</a>
+                      </div>
+                    </div>
+                  </div>
+              </div> 
+            </div>
+          </div>
+          <div class="swiper-slide">
+            <div class="container">
+          <h2>Готовое решение: <span>Большая пиццерия</span></h2>  
+            <div class="row">
+                <div class=".col-md-12 col-lg-9">
+                  
+                    <h3>В стоимость входит:</h3>
+
+                    <!-- Product Table -->
+                    <div class="table-gray-heading">
+                      <p class="table-title">Оборудование</p>
+                      <p class="price-total"><span>189 693</span> руб</p>
+                    </div>
+                    <div class="table" id="results">
+                      <div class='theader'>
+                        
+                        <div class='table_header col-12 col-md-2  first'>Фото</div>
+                        <div class='table_header col-12 col-md-4 second'>Наименование</div>
+                        <div class='table_header col-12 col-md-2 text-center third'>Цена, руб</div>
+                        <div class='table_header col-12 col-md-2 text-center fourth'>Кол-во</div>
+                        <div class='table_header col-12 col-md-2 text-center fifth'>Стоимость, руб</div>
+                      
+                    </div>
+                      <div class='table_row'>
+                        <div class='table_small col-12 col-md-2 first'>
+                          <div class='table_cell'>Фото</div>
+                          <div class='table_cell'><img src="img/techniq.png" alt=""></div>
+                        </div>
+                        <div class='table_small col-12 col-md-4 second'>
+                          <div class='table_cell'>Наименование</div>
+                          <div class='table_cell'><p class="table-prod-link"><a href="#">Ящик для овощей и фруктов 600x
+                            400x200 мм с отверстиями...</a></p></div>
+                        </div>
+                        <div class='table_small col-12 col-md-2 third'>
+                          <div class='table_cell'>Цена, руб</div>
+                          <div class='table_cell table-item-price'>1 234,00</div>
+                        </div>
+                        <div class='table_small col-12 col-md-2 fourth'>
+                          <div class='table_cell'>Кол-во</div>
+                          <div class='table_cell'>
+                            <div class="number">
+                            <div class="plus"><span>+</span></div>
+                            <input type="text" value="1"/>
+                            <div class="minus"><span>-</span></div>
+                          </div>
+                        </div>
+                        </div>
+                        <div class='table_small col-12 col-md-2 fifth'>
+                          <div class='table_cell'>Стоимость, руб</div>
+                          <div class='table_cell table-price'>100 000,00  <a href="#"></a></div>
+                        </div>
+                      </div>
+                    
+                      <div class='table_row'>
+                        <div class='table_small col-12 col-md-2 first'>
+                          <div class='table_cell'>Фото</div>
+                          <div class='table_cell'><img src="img/techniq.png" alt=""></div>
+                        </div>
+                        <div class='table_small col-12 col-md-4 second'>
+                          <div class='table_cell'>Наименование</div>
+                          <div class='table_cell'><a href="#">Ящик для овощей и фруктов 600x
+                            400x200 мм с отверстиями...</a></div>
+                        </div>
+                        <div class='table_small col-12 col-md-2 third'>
+                          <div class='table_cell'>Цена, руб</div>
+                          <div class='table_cell table-item-price'>1 234,00</div>
+                        </div>
+                        <div class='table_small col-12 col-md-2 fourth'>
+                          <div class='table_cell'>Кол-во</div>
+                          <div class='table_cell'>
+                            <div class="number">
+                              <div class="plus"><span>+</span></div>
+                              <input type="text" value="1"/>
+                              <div class="minus"><span>-</span></div>
+                          </div>
+                        </div>
+                        </div>
+                        <div class='table_small col-12 col-md-2 fifth'>
+                          <div class='table_cell'>Стоимость, руб</div>
+                          <div class='table_cell table-price'>100 000,00 <a href="#"></a></div>
+                        </div>
+                      </div>
+                    
+                      <div class='table_row'>
+                        <div class='table_small col-12 col-md-2 first'>
+                          <div class='table_cell'>Фото</div>
+                          <div class='table_cell'><img src="img/techniq.png" alt=""></div>
+                        </div>
+                        <div class='table_small col-12 col-md-4 second'>
+                          <div class='table_cell'>Наименование</div>
+                          <div class='table_cell'><a href="#">Ящик для овощей и фруктов 600x
+                            400x200 мм с отверстиями...</a></div>
+                        </div>
+                        <div class='table_small col-12 col-md-2 third'>
+                          <div class='table_cell'>Цена, руб</div>
+                          <div class='table_cell table-item-price'>1 234,00</div>
+                        </div>
+                        <div class='table_small col-12 col-md-2 fourth'>
+                          <div class='table_cell'>Кол-во</div>
+                          <div class='table_cell'>
+                            <div class="number">
+                              <div class="plus"><span>+</span></div>
+                              <input type="text" value="1"/>
+                              <div class="minus"><span>-</span></div>
+                          </div>
+                        </div>
+                        </div>
+                        <div class='table_small col-12 col-md-2 fifth'>
+                          <div class='table_cell'>Стоимость, руб</div>
+                          <div class='table_cell table-price'>100 000,00 <a href="#"></a></div>
+                        </div>
+                      </div>
+                    </div>
+                    <div class="table-gray-heading">
+                      <p class="table-title">Оборудование</p>
+                      <p class="price-total"><span>189 693</span> руб</p>
+                    </div>
+                    <div class="table" id="results_1">
+                      <div class='theader'>
+                        
+                        <div class='table_header col-12 col-md-2  first'>Фото</div>
+                        <div class='table_header col-12 col-md-4 second'>Наименование</div>
+                        <div class='table_header col-12 col-md-2 text-center third'>Цена, руб</div>
+                        <div class='table_header col-12 col-md-2 text-center fourth'>Кол-во</div>
+                        <div class='table_header col-12 col-md-2 text-center fifth'>Стоимость, руб</div>
+                      
+                    </div>
+                    <div class='table_row'>
+                      <div class='table_small col-12 col-md-2 first'>
+                        <div class='table_cell'>Фото</div>
+                        <div class='table_cell'><img src="img/techniq.png" alt=""></div>
+                      </div>
+                      <div class='table_small col-12 col-md-4 second'>
+                        <div class='table_cell'>Наименование</div>
+                        <div class='table_cell'><a href="#">Ящик для овощей и фруктов 600x
+                          400x200 мм с отверстиями...</a></div>
+                      </div>
+                      <div class='table_small col-12 col-md-2 third'>
+                        <div class='table_cell'>Цена, руб</div>
+                        <div class='table_cell table-item-price'>1 234,00</div>
+                      </div>
+                      <div class='table_small col-12 col-md-2 fourth'>
+                        <div class='table_cell'>Кол-во</div>
+                        <div class='table_cell'>
+                          <div class="number">
+                            <div class="plus"><span>+</span></div>
+                            <input type="text" value="1"/>
+                            <div class="minus"><span>-</span></div>
+                        </div>
+                      </div>
+                      </div>
+                      <div class='table_small col-12 col-md-2 fifth'>
+                        <div class='table_cell'>Стоимость, руб</div>
+                        <div class='table_cell table-price'>100 000,00 <a href="#"></a></div>
+                      </div>
+                    </div>
+                    
+                    <div class='table_row'>
+                      <div class='table_small col-12 col-md-2 first'>
+                        <div class='table_cell'>Фото</div>
+                        <div class='table_cell'><img src="img/techniq.png" alt=""></div>
+                      </div>
+                      <div class='table_small col-12 col-md-4 second'>
+                        <div class='table_cell'>Наименование</div>
+                        <div class='table_cell'><a href="#">Ящик для овощей и фруктов 600x
+                          400x200 мм с отверстиями...</a></div>
+                      </div>
+                      <div class='table_small col-12 col-md-2 third'>
+                        <div class='table_cell'>Цена, руб</div>
+                        <div class='table_cell table-item-price'>1 234,00</div>
+                      </div>
+                      <div class='table_small col-12 col-md-2 fourth'>
+                        <div class='table_cell'>Кол-во</div>
+                        <div class='table_cell'>
+                          <div class="number">
+                            <div class="plus"><span>+</span></div>
+                            <input type="text" value="1"/>
+                            <div class="minus"><span>-</span></div>
+                        </div>
+                      </div>
+                      </div>
+                      <div class='table_small col-12 col-md-2 fifth'>
+                        <div class='table_cell'>Стоимость, руб</div>
+                        <div class='table_cell table-price'>100 000,00 <a href="#"></a></div>
+                      </div>
+                    </div>
+                    
+                    <div class='table_row'>
+                      <div class='table_small col-12 col-md-2 first'>
+                        <div class='table_cell'>Фото</div>
+                        <div class='table_cell'><img src="img/techniq.png" alt=""></div>
+                      </div>
+                      <div class='table_small col-12 col-md-4 second'>
+                        <div class='table_cell'>Наименование</div>
+                        <div class='table_cell'><a href="#">Ящик для овощей и фруктов 600x
+                          400x200 мм с отверстиями...</a></div>
+                      </div>
+                      <div class='table_small col-12 col-md-2 third'>
+                        <div class='table_cell'>Цена, руб</div>
+                        <div class='table_cell table-item-price'>1 234,00</div>
+                      </div>
+                      <div class='table_small col-12 col-md-2 fourth'>
+                        <div class='table_cell'>Кол-во</div>
+                        <div class='table_cell'>
+                          <div class="number">
+                            <div class="plus"><span>+</span></div>
+                            <input type="text" value="1"/>
+                            <div class="minus"><span>-</span></div>
+                        </div>
+                      </div>
+                      </div>
+                      <div class='table_small col-12 col-md-2 fifth'>
+                        <div class='table_cell'>Стоимость, руб</div>
+                        <div class='table_cell table-price'>100 000,00 <a href="#"></a></div>
+                      </div>
+                    </div>
+                    </div>
+                    <div class="table-gray-heading">
+                      <p class="table-title">Оборудование</p>
+                      <p class="price-total"><span>189 693</span> руб</p>
+                    </div>
+                    <div class="table" id="results_2">
+                      <div class='theader'>
+                        
+                        <div class='table_header col-12 col-md-2  first'>Фото</div>
+                        <div class='table_header col-12 col-md-4 second'>Наименование</div>
+                        <div class='table_header col-12 col-md-2 text-center third'>Цена, руб</div>
+                        <div class='table_header col-12 col-md-2 text-center fourth'>Кол-во</div>
+                        <div class='table_header col-12 col-md-2 text-center fifth'>Стоимость, руб</div>
+                      
+                    </div>
+                    <div class='table_row'>
+                      <div class='table_small col-12 col-md-2 first'>
+                        <div class='table_cell'>Фото</div>
+                        <div class='table_cell'><img src="img/techniq.png" alt=""></div>
+                      </div>
+                      <div class='table_small col-12 col-md-4 second'>
+                        <div class='table_cell'>Наименование</div>
+                        <div class='table_cell'><a href="#">Ящик для овощей и фруктов 600x
+                          400x200 мм с отверстиями...</a></div>
+                      </div>
+                      <div class='table_small col-12 col-md-2 third'>
+                        <div class='table_cell'>Цена, руб</div>
+                        <div class='table_cell table-item-price'>1 234,00</div>
+                      </div>
+                      <div class='table_small col-12 col-md-2 fourth'>
+                        <div class='table_cell'>Кол-во</div>
+                        <div class='table_cell'>
+                          <div class="number">
+                            <div class="plus"><span>+</span></div>
+                            <input type="text" value="1"/>
+                            <div class="minus"><span>-</span></div>
+                        </div>
+                      </div>
+                      </div>
+                      <div class='table_small col-12 col-md-2 fifth'>
+                        <div class='table_cell'>Стоимость, руб</div>
+                        <div class='table_cell table-price'>100 000,00 <a href="#"></a></div>
+                      </div>
+                    </div>
+                    
+                    <div class='table_row'>
+                      <div class='table_small col-12 col-md-2 first'>
+                        <div class='table_cell'>Фото</div>
+                        <div class='table_cell'><img src="img/techniq.png" alt=""></div>
+                      </div>
+                      <div class='table_small col-12 col-md-4 second'>
+                        <div class='table_cell'>Наименование</div>
+                        <div class='table_cell'><a href="#">Ящик для овощей и фруктов 600x
+                          400x200 мм с отверстиями...</a></div>
+                      </div>
+                      <div class='table_small col-12 col-md-2 third'>
+                        <div class='table_cell'>Цена, руб</div>
+                        <div class='table_cell table-item-price'>1 234,00</div>
+                      </div>
+                      <div class='table_small col-12 col-md-2 fourth'>
+                        <div class='table_cell'>Кол-во</div>
+                        <div class='table_cell'>
+                          <div class="number">
+                            <div class="plus"><span>+</span></div>
+                            <input type="text" value="1"/>
+                            <div class="minus"><span>-</span></div>
+                        </div>
+                      </div>
+                      </div>
+                      <div class='table_small col-12 col-md-2 fifth'>
+                        <div class='table_cell'>Стоимость, руб</div>
+                        <div class='table_cell table-price'>100 000,00 <a href="#"></a></div>
+                      </div>
+                    </div>
+                    
+                    <div class='table_row'>
+                      <div class='table_small col-12 col-md-2 first'>
+                        <div class='table_cell'>Фото</div>
+                        <div class='table_cell'><img src="img/techniq.png" alt=""></div>
+                      </div>
+                      <div class='table_small col-12 col-md-4 second'>
+                        <div class='table_cell'>Наименование</div>
+                        <div class='table_cell'><a href="#">Ящик для овощей и фруктов 600x
+                          400x200 мм с отверстиями...</a></div>
+                      </div>
+                      <div class='table_small col-12 col-md-2 third'>
+                        <div class='table_cell'>Цена, руб</div>
+                        <div class='table_cell table-item-price'>1 234,00</div>
+                      </div>
+                      <div class='table_small col-12 col-md-2 fourth'>
+                        <div class='table_cell'>Кол-во</div>
+                        <div class='table_cell'>
+                          <div class="number">
+                            <div class="plus"><span>+</span></div>
+                            <input type="text" value="1"/>
+                            <div class="minus"><span>-</span></div>
+                        </div>
+                      </div>
+                      </div>
+                      <div class='table_small col-12 col-md-2 fifth'>
+                        <div class='table_cell'>Стоимость, руб</div>
+                        <div class='table_cell table-price'>100 000,00 <a href="#"></a></div>
+                      </div>
+                    </div>
+                    </div>
+                </div>
+                <div class=".col-md-12 col-lg-3">
+                  <div class="list-info">
+                    <p class="list-square">Площадь: 120 м<sup>2</sup></p>
+                    <div class="list-price">
+                      <p class="first">Закажите готовое решение для Вашего бизнеса за:</p>
+                      <p class="second"><span>25 468,00</span> руб</p>
+                    </div>
+                    <div class="list-order">
+                      <a href="#">Как приобрести решение в лизинг и кредит</a>
+                      <button class="btn btn-danger">Оформить заказ</button>
+                    </div>
+                    <div class="list-download">
+                      <img src="img/pdf.png" alt=""> <a href="#">Скачать файл заказа</a>
+                    </div>
+                  </div>
+                </div>
+            </div> 
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+  <div class="banners">
+    <div class="container">
+      <div class="row">
+        <div class="col-md-12 col-lg-9">
+          <div class="banner-1">
+            <div class="telephone">
+              <div>
+                <img src="img/telephone.png" alt="">
+              </div>
+              <div class="telephone-text">
+                <p>Нужна помощь?</p>
+                <a href="#">8 800 123-45-67</a>
+              </div>
+            </div>
+            <div class="list-download">
+              <img src="img/pdf.png" alt=""> <a href="#">Скачать файл заказа</a>
+            </div>
+            <button class="btn btn-danger">Оформить заказ</button>
+          </div>
+
+          <div class="banner-2">
+            <div class="manager">
+              <img src="img/manager.png" alt="">
+            </div>
+            <div class="right-manager">
+              <p>Консультация эксперта по оборудованию</p>
+              <img class="question" src="img/question.png" alt=""><a href="#">Задать вопрос эксперту</a>
+          </div>
+          </div>
+
+        </div>
+        <div class="col-md-12 col-lg-3">
+          <div class="banner-3">
+            <p class="red-text">Не подошло типовое решение?</p>
+            <div class="pizza">
+              
+              <img src="img/pizza.png" alt="">
+              <p>Закажите пиццерию по индивидуальному проекту</p>
+            </div>
+            <div class="last-link">
+              <a href="#">Узнать больше</a>
+            </div>
+          </div>
+        </div>
+      </div> 
+    </div>
+  </div>
+  <div class="advantages">
+    <div class="container">
+      <div class="row">
+        <div class="col-sm-6 col-md-3 gy-3">
+          <div class="d-flex">
+            <div>
+              <img src="img/key.png" alt="">
+            </div>
+            <div>
+              <p>Запускаем под ключ</p>
+              <a href="#">Проект, поставка, монтаж</a>
+            </div>
+          </div>
+        </div>
+        <div class="col-sm-6 col-md-3 gy-3">
+          <div class="d-flex">
+            <div>
+              <img src="img/puzzle.png" alt="">
+            </div>
+            <div>
+              <p>Запускаем под ключ</p>
+              <a href="#">Для предприятий питания</a>
+            </div>
+          </div>
+        </div>
+        <div class="col-sm-6 col-md-3 gy-3">
+          <div class="d-flex">
+            <div>
+              <img src="img/circle.png" alt="">
+            </div>
+            <div>
+              <p>Всесторонняя помощь</p>
+              <a href="#">Консультации, кредит, Trade-in</a>
+            </div>
+          </div>
+        </div>
+        <div class="col-sm-6 col-md-3 gy-3">
+          <div class="d-flex">
+            <div>
+              <img src="img/car.png" alt="">
+            </div>
+            <div>
+              <p>Доставка по России и СНГ</p>
+              <a href="#">Проект, поставка, монтаж</a>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</main>
+
+<footer>
+  <nav class="footer-nav navbar navbar-expand-lg navbar-dark bg-dark">
+    <div class="container">
+      <a class="navbar-brand" href="#">
+        <div class="d-flex">
+          <div class="footer-logo">
+            <img src="img/ftr-menu.png">
+          </div>
+          <div>
+            <p class="footer-title">RESTAURATEUR</p>
+            <p class="footer-subtitle">Professional kitchen equipment</p>
+          </div>
+        </div>
+      </a>
+        <div class="navbar-nav">
+          <a class="nav-link" href="#">О компании</a>
+          <a class="nav-link" href="#">Доставка и оплата</a>
+          <a class="nav-link" href="#">Гарантия</a>
+          <a class="nav-link" href="#">Политика возврата</a>
+          <a class="nav-link" href="#">Помощь</a>
+          <a class="nav-link" href="#">Контакты</a>
+        </div>
+    </div>
+  </nav>
+  <div class="container ftr-address">
+    <div class="row">
+      <div class="col-sm-12 col-md-12 col-lg-3">
+        <div class="first-widget">
+          <p class="address">Уфа, проспект Октября, 180<br/>
+            Казань, Октября 180<br/>
+            Ижевск, Проспект 180</p>
+          <p>Все контакты</p>
+          <p><a class="number" href="#">+7 (347) 123-45-67</a></p>
+          <button class="btn call-btn">Заказать звонок</button>
+          <div class="socials">
+            <a href="#" class="fb-icon"></a>
+            <a href="#"  class="vk-icon"></a>
+            <a href="#"  class="twitter-icon"></a>
+          </div>
+        </div>
+      </div>
+      <div class="col-sm-12 col-md-6 col-lg-6">
+        <div class="input-group gy-sm-3 gy-md-0">
+          <input type="text" class="form-control" placeholder="Поиск...">
+          <button class="" type="button">
+            <span class="loupe-icon"></span>
+          </button>
+        </div>
+        <div class="second-widget">
+          <div class="left-menu">
+            <ul>
+              <li><a href="#">ОБОРУДОВАНИЕ</a></li>
+              <li><a href="#">ИНВЕНТАРЬ</a></li>
+              <li><a href="#">ПОСУДА</a></li>
+              <li><a href="#">МЕБЕЛЬ</a></li>
+            </ul>
+          </div>
+          <div class="mid-menu">
+            <h3>Услуги</h3>
+              <ul>
+                <li><a href="#">Проектирование</a></li>
+                <li><a href="#">Кредитование</a></li>
+                <li><a href="#">Лизинг</a></li>
+                <li><a href="#">Срочный выкуп оборудования</a></li>
+                <li><a href="#">Trade-In</a></li>
+                <li><a href="#">Разработка фирменного стиля</a></li>
+                <li><a href="#">БРЕНД-ШЕВ - экспертная</a></li>
+                <li><a href="#">Поддержка</a></li>
+                <li><a href="#">Разработка меню</a></li>
+              </ul>
+          </div>
+        </div>
+      </div>
+      <div class="col-sm-12 col-md-6 col-lg-3">
+        <div class="third-widget">
+          <div class="d-flex">
+            <div class="footer-logo-2">
+              <img src="img/logo-pzl.png">
+            </div>
+          
+            <div>
+              <p class="footer-title">Готовые<br/>
+              Комплексные решения</p>
+            </div>
+          </div>
+            <div class="right-menu">
+              <h3>Сервисный центр</h3>
+              <ul>
+                <li><a href="#">Диагностика и ремонт оборудования</a></li>
+                <li><a href="#">Гарантийное обслуживание</a></li>
+                <li><a href="#">Техническое обслуживание</a></li>
+                <li><a href="#">Монтаж и пуско-наладка</a></li>
+              </ul>
+            </div>
+        </div>
+      </div>
+    </div>
+  </div>
+    <div class="footer-bottom d-flex">
+      <div class="container text-center">
+        @ Ресторатор, 2021
+      </div>
+    </div>
+</footer>
+<button type="button" class="btn btn-top" id="btn-back-to-top">
+  <img src="img/top-btn.png" alt="">
+</button>
+<script src="js/bootstrap.js"></script>
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
+<script src="https://unpkg.com/swiper@7/swiper-bundle.min.js"></script>
+<script src="js/main.js"></script>
+</body>
+</html>
